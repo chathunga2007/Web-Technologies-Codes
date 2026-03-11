@@ -1,14 +1,14 @@
 function changeName() {
-    document.getElementById("studentName").textContent = "Chathunga Bimsara";
+    document.getElementById("studentName").innerHTML = "Chathunga Bimsara";
 }
 
 function changeStatus() {
-    document.getElementById("studentStatus").textContent = "Status: Completed JavaScript Intro";
+    document.getElementById("studentStatus").innerHTML = "Status: Completed JavaScript Intro";
 }
 
 function showDate() {
     const today = new Date();
-    document.getElementById("todayDate").textContent = "Date: " + today.toDateString();
+    document.getElementById("todayDate").innerHTML = "Date: " + today.toDateString();
 }
 
 function changeTheme() {
