@@ -7,8 +7,7 @@ function changeStatus() {
 }
 
 function showDate() {
-    const today = new Date();
-    document.getElementById("todayDate").innerHTML = "Date: " + today.toDateString();
+    document.getElementById("todayDate").innerHTML = "Date: " + new Date().toDateString();
 }
 
 function changeTheme() {
